@@ -34,9 +34,11 @@
 
 // Sizes
 #let main-size = if is-web-target {
-  16pt
+  // 16pt
+  20pt
 } else {
-  10.5pt
+  // 10.5pt
+  14.5pt
 }
 #let heading-sizes = (26pt, 22pt, 14pt, 12pt, main-size)
 #let list-indent = 0.5em
