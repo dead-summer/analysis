@@ -12,6 +12,7 @@
     #prefix-chapter("sample-page.typ")[Hello, typst]
     = Measures
     - #chapter("notes/measure-theory.typ")[Measure Theory]
+    - #chapter("notes/sigma-algebra.typ")[sigma-Algebra]
   ]
 )
 
