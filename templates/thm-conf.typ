@@ -31,7 +31,9 @@
 
 #let exm = thmplain(
   "example",
-  "Example").with(numbering: none)
+  "Example",
+  titlefmt: strong
+).with(numbering: none)
 
 #let prf = thmplain(
   "proof",
