@@ -44,7 +44,7 @@
   titlefmt: smallcaps,
   inset: (x: 1.2em, y: 1em),
   bodyfmt: body => [
-    #body #h(1fr) $square$ // float a QED symbol to the right
+    #body #v(0.5pt) #h(1fr) $square$ // float a QED symbol to the right
   ]
 ).with(numbering: none)
 
