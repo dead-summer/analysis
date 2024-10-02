@@ -12,6 +12,7 @@
 #let prp = thmbox(
   "proposition",
   "Proposition",
+  stroke: 0.5pt,
   base_level: 0
 )
 
@@ -25,20 +26,23 @@
 #let def = thmbox(
   "definition",
   "Definition",
-  inset: (x: 1.2em, top: 1em),
+  // inset: (top: 1em),
+  stroke: 0.5pt,
   base_level: 0
 )
 
 #let exm = thmplain(
   "example",
   "Example",
-  titlefmt: strong
+  titlefmt: strong,
+  inset: (top: 0.8em)
 ).with(numbering: none)
 
 #let prf = thmplain(
   "proof",
   "Proof",
   titlefmt: smallcaps,
+  inset: (x: 1.2em, y: 1em),
   bodyfmt: body => [
     #body #h(1fr) $square$ // float a QED symbol to the right
   ]
