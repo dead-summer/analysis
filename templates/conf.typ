@@ -37,7 +37,7 @@
   titlefmt: strong,
   inset: (top: 0.8em),
   base: "heading",
-  base_level: 1
+  base_level: 0
 )
 
 #let prf = thmplain(

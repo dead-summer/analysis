@@ -12,8 +12,9 @@ We should first recognize that real numbers (numbers with decimal points) can on
 
 by finite precision in computers. Typically, computer representation has two precisions:
 
-- *Single precision* : computer round-off $#mi("{\epsilon }_{1} = {2}^{-{23}} \approx  {1.19} \times  {10}^{-7}")$ ;
+- *Single precision* : computer round-off $#mi("{\epsilon }_{1} = {2}^{-{23}} \approx  1.19 \\times  {10}^{-7}")$ ;
 
-- *Double precision* : computer round-off $#mi("{\epsilon }_{2} = {2}^{-{52}} \approx  {2.22} \times  {10}^{-{16}}")$ .
+- *Double precision* : computer round-off $#mi("{\epsilon }_{2} = {2}^{-{52}} \approx  2.22 \\times  {10}^{-{16}}")$ .
 
 The corresponding numbers are called floating point numbers. The finite precision introduces computer round-offs, which contributes to the major part of implementation errors.
+
