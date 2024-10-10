@@ -4,9 +4,11 @@
 
 #show: book-page.with(title: "Modelling, Discretization and Implementation")
 
+
+
 = 1 Modelling, Discretization and Implementation
 
-Scientific problems are often raised (or proposed) as mathematical models, which are typically described by differential equations, either ordinary differential equations or partial differential equations. After discretization by appropriate numerical algorithms, mathematical equations are further solved by computer programs.
+Scientific problems are often raised (or proposed) as mathematical models, which are typically described by differential equations, either or dinary differential equations or partial differential equations. After discretization by appropriate numerical algorithms, mathematical equations are further solved by computer programs.
 
 The steps, modelling with mathematics, discretization by algorithms and implementation for computers, form the major components of scientific computing.
 

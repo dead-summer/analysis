@@ -35,8 +35,10 @@
   "example",
   "Example",
   titlefmt: strong,
-  inset: (top: 0.8em)
-).with(numbering: none)
+  inset: (top: 0.8em),
+  base: "heading",
+  base_level: 1
+)
 
 #let prf = thmplain(
   "proof",

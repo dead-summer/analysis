@@ -12,12 +12,13 @@
     #prefix-chapter("sample-page.typ")[Hello, typst]
 
     = Analysis
-    - #chapter("notes/Analysis/measure-theory.typ")[Measure Theory]
-    - #chapter("notes/Analysis/sigma-algebras.typ")[sigma-Algebras]
+    - #chapter("notes/Analysis/ch1_measures/measures.typ")[Measures]
+      - #chapter("notes/Analysis/ch1_measures/measure-theory.typ")[Measure Theory]
+      - #chapter("notes/Analysis/ch1_measures/sigma-algebras.typ")[sigma-Algebras]
 
     = Scientific Computing
-    - #chapter("notes/ScientificComputing/ch1/introduction.typ")[Introduction to Scientific Computing]
-      - #chapter("notes/ScientificComputing/ch1/modelling-discretization-and-implementation.typ")[Modelling, Discretization and Implementation]
+    - #chapter("notes/ScientificComputing/ch1-intro-to-scicomp/introduction.typ", section: "1")[Introduction to Scientific Computing]
+      - #chapter("notes/ScientificComputing/ch1-intro-to-scicomp/modelling-discretization-and-implementation.typ")[Modelling, Discretization and Implementation]
 
   ]
 )
