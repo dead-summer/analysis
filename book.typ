@@ -17,9 +17,10 @@
       - #chapter("notes/Analysis/ch1_measures/sigma-algebras.typ")[sigma-Algebras]
 
     = Scientific Computing
-    - #chapter("notes/ScientificComputing/ch1-intro-to-scicomp/introduction.typ", section: "1")[Introduction to Scientific Computing]
+    - #chapter("notes/ScientificComputing/ch1-intro-to-scicomp/intro-to-scicomp.typ", section: "1")[Introduction to Scientific Computing]
       - #chapter("notes/ScientificComputing/ch1-intro-to-scicomp/modelling-discretization-and-implementation.typ")[Modelling, Discretization and Implementation]
-
+      - #chapter("notes/ScientificComputing/ch1-intro-to-scicomp/faster-higher-and-stronger.typ")[Faster, Higher and Stronger]
+      - #chapter("notes/ScientificComputing/ch1-intro-to-scicomp/computer-representation-of-numbers.typ")[Computer Representation of Numbers]
   ]
 )
 

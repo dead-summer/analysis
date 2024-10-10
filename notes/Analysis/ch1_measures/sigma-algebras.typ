@@ -1,5 +1,5 @@
 #import "/book.typ": book-page
-#import "../../../templates/thm-conf.typ": *
+#import "../../../templates/conf.typ": *
 #show: thmrules.with(qed-symbol: $square$)
 
 #show: book-page.with(title: "Sigma Algebra")
